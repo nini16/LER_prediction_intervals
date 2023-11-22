@@ -21,9 +21,11 @@ https://drive.google.com/a/tamu.edu/file/d/1DTbKKd9GSLHMbx_3IxiBzs7LWgT7IusZ/vie
 The linescan dataset can be downloaded from this link - 
 https://drive.google.com/a/tamu.edu/file/d/11LcLFm-cmUwHwLG1HC9Ie0l2vckrsEuc/view?usp=sharing
 
+Link to `EDGEnet2_int_L1_epoch_4.h5`: 
+
 ## Results
-Each publication folder should have a `models_coverage_statistics.ipynb` file which is an interactive python notebook. 
+The `spie_jm3` publication folder should have a `models_coverage_statistics.ipynb` file which is an interactive python notebook. 
 Most of the results from the corresponding publication can be reproduced by running the code in these notebooks (Note 
-that the filepaths will have to be modified for this to work). Furthermore, the experimental test data needed to run 
-these notebooks have been pre-computed and stored in serialized pandas dataframe files (located in `/models` 
-sub-directory of each publication directory).
+that the filepaths will have to be modified for this to work). For the other publications, the experimental test data needed to derive 
+the corresponing results has been pre-computed and stored in serialized pandas dataframe files (located in `/models` 
+sub-directory of each publication directory.
