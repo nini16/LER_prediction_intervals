@@ -14,10 +14,13 @@ import math
 import pandas as pd
 
 
-# ----------------------- NORMCP APPROACH 1 ---------------------------
+# ----------------------- NCPLSTMNet ---------------------------
 ####################### EXPLANATION #########################
-# This is approach 1 where we feed the whole Noise image into a CNN + LSTM + FC network. 
+# In this approach we feed a Noise image into a CNN + LSTM + FC network.
 # We try to predict the taret error for each edge separately.
+
+# Note that all Noise images were pre-extracted using NoiseImage_DataGen.py
+# into the dataset NoiseCompression_Xtrain.npy
 ##############################################################
 
 def Model_Builder():
